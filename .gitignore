@@ -1,0 +1,21 @@
+# —— 运行时数据与机密配置，严禁入库 ——
+docs/
+backups/
+models/
+writer_docs/
+.temp/
+.venv/
+__pycache__/
+*.app/
+*.log
+*.sqlite3
+*.pkl
+*.zip
+*.pptx
+*.pdf
+.DS_Store
+# 含 API Key 的本机配置
+llm_config.json
+autocollect_config.json
+models_config.json
+writer_skills.json

@@ -1,0 +1,24 @@
+# RAG 知识库系统依赖（按技术说明书 13.2）
+# 本机实测兼容组合：macOS 13.3 / Python 3.12（新版 torch 不支持 macOS 13，故锁定以下组合）
+torch>=2.2,<2.3
+sentence-transformers>=3.0,<3.3
+transformers>=4.45,<4.47
+numpy>=1.26,<2
+scipy>=1.13,<1.14
+chromadb>=0.5
+rank-bm25>=0.2.2
+jieba>=0.42.1
+
+# 文档解析（11种格式）
+python-docx>=1.1
+pdfplumber>=0.10
+openpyxl>=3.1
+python-pptx>=0.6.21
+xlrd>=2.0
+
+# 常驻服务
+fastapi>=0.110
+uvicorn>=0.29
+psutil>=5.9
+requests>=2.31
+reportlab>=4.0
